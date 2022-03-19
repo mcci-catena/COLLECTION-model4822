@@ -1,6 +1,6 @@
-# COLLECTION-model4831
+# COLLECTION-model4822
 
-Source and required libraries for the MCCI&reg; Model 4821 Indoor Environment Sensor.
+Source and required libraries for the MCCI&reg; [Model 4822 Indoor Environment Sensor](https://store.mcci.com/collections/remote-sensors/products/model-4821?variant=31733640560751) bsed on the MCCI Catena 4618.
 
 This repo is mostly submodules; clone it using `git clone --recursive`.
 
@@ -25,4 +25,3 @@ This repository is released under the [MIT](./LICENSE) license. Commercial licen
 MCCI invests time and resources providing this open source code, please support MCCI and open-source hardware by purchasing products from MCCI, Adafruit and other open-source hardware/software vendors!
 
 For information about MCCI's products, please visit [store.mcci.com](https://store.mcci.com/).
-
