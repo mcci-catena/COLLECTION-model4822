@@ -35,14 +35,15 @@ cd "$PDIR"
 
 function _setProject {
     #---- project settings -----
+    readonly OPTOUTPUTNAME_DEFAULT=model4822
+    readonly OPTARDUINO_SOURCE_DEFAULT=sketches/catena4618m201_simple/catena4618m201_simple.ino
+    readonly OPTARDUINO_BOARD_DEFAULT=4618
     readonly OPTKEYFILE_DEFAULT="$INVOKEDIR/keys/project.pem"
     readonly OPTREGION_DEFAULT=us915
     readonly OPTNETWORK_DEFAULT=ttn
     readonly OPTSUBBAND_DEFAULT=default
     readonly OPTCLOCK_DEFAULT=16
     readonly OPTXSERIAL_DEFAULT=usb
-    readonly OPTARDUINO_BOARD_DEFAULT=4618
-    readonly OPTARDUINO_SOURCE_DEFAULT=sketches/catena4618m201_simple/catena4618m201_simple.ino
 }
 
 # result is version as either x.y.z-N or x.y.z (if pre-release tag is -0)
